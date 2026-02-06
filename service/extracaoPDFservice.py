@@ -101,24 +101,10 @@ def extract_text_from_pdf(filepdf: UploadFile):
     result = extract_pdf_metadata(filepdf)
     return result["full_text"]
 
-#function to make split the text into chunk
+from utils.text_processor import smart_split_text
+
+# function to make split the text into chunk
 # esta funcao retorna uma lista
-def split_text_into_chunks(text:str, chunk_size=300, overlap=50) -> list: 
-    chunks = []
-    # Ensure overlap is less than chunk_size to avoid infinite loop
-    if overlap >= chunk_size:
-        overlap = chunk_size // 2
-
-    # If text is shorter than chunk size, return it as single chunk
-    if len(text) <= chunk_size:
-        return [text]
-
-    for i in range(0, len(text), chunk_size - overlap):
-        chunk = text[i:i + chunk_size]
-        chunks.append(chunk)
-        
-        # Stop if we've reached the end
-        if i + chunk_size >= len(text):
-            break
-            
-    return chunks
+def split_text_into_chunks(text:str, chunk_size=500, overlap=50) -> list:
+    # Delegate to the new smart splitter
+    return smart_split_text(text, chunk_size=chunk_size, overlap=overlap)

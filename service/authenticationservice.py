@@ -1,5 +1,5 @@
 from pinecone import Pinecone
-from openai import OpenAI
+from openai import AsyncOpenAI
 import os
 from dotenv import load_dotenv
 
@@ -21,5 +21,5 @@ def authentication_openai():
    if not api_key:
        raise RuntimeError("OPENAI_API_KEY não encontrada no ambiente")
 
-   clientOpenAI = OpenAI(api_key=api_key)
+   clientOpenAI = AsyncOpenAI(api_key=api_key)
    return clientOpenAI

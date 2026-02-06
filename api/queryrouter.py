@@ -30,14 +30,14 @@ async def query(search:str, user: User = Depends(get_current_user), db: Session 
     except Exception as e:
         print(f"Error saving history: {e}")
 
-    response = query_simples(search=search)
+    response = await query_simples(search=search, tenant_id=user.tenant_id, db=db)
     return response
 
 @router.post("/api/query/advanced", summary="query with metadata filters")
 async def query_advanced(request: AdvancedQueryRequest, user: User = Depends(get_current_user)):
     filters = request.filters or {}
     
-    response = query_filtered(
+    response = await query_filtered(
         search=request.search_text, 
         filters=filters,
         top_k=request.top_k

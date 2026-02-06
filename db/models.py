@@ -101,5 +101,27 @@ class Job(Base):
     
     tenant = relationship("Tenant", back_populates="jobs")
 
+
 # Update Tenant to include jobs relationship
 Tenant.jobs = relationship("Job", back_populates="tenant")
+
+class CandidateDocument(Base):
+    __tablename__ = "candidate_documents"
+    id = Column(Integer, primary_key=True)
+    tenant_id = Column(Integer, ForeignKey("tenants.id"))
+    
+    filename = Column(String, nullable=False)
+    file_type = Column(String) # pdf, docx
+    full_text = Column(Text, nullable=False) # For Keyword Search (LIKE)
+    
+    # Metadata for filtering
+    candidate_name = Column(String)
+    email = Column(String)
+    
+    # Background Processing Status
+    processing_status = Column(String, default="PENDING") # PENDING, DONE, ERROR
+    processing_error = Column(Text, nullable=True)
+
+    upload_date = Column(DateTime, default=datetime.utcnow)
+    
+    tenant = relationship("Tenant")

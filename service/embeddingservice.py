@@ -14,14 +14,14 @@ def embeddingService(chunk : str):
     return vector 
 """
 
-def embeddingService(chunk: str):
+async def embeddingService(chunk: str):
     try:
         # Garante que o chunk não ultrapasse o limite de tokens (opcional)
         if len(chunk) > 8192:
             chunk = chunk[:8192]
 
         # Geração do embedding
-        response = clientOpeAI.embeddings.create(
+        response = await clientOpeAI.embeddings.create(
             model='text-embedding-ada-002',
             input=chunk
         )
