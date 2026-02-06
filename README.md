@@ -4,7 +4,7 @@ Este projeto é uma plataforma de **Busca Semântica** desenvolvida em Python co
 
 A aplicação utiliza embeddings e bancos de dados vetoriais (Pinecone) para realizar buscas semânticas, permitindo encontrar candidatos que melhor se alinham às descrições das vagas, além da simples correspondência de palavras-chave.
 
-## 🚀 Funcionalidades Principais
+## Funcionalidades Principais
 
 *   **Ingestão de Currículos**: Upload de arquivos (PDF e DOCX) com extração automática de texto.
 *   **Busca Semântica**: Encontre candidatos ideais utilizando linguagem natural para descrever o perfil desejado.
@@ -13,7 +13,7 @@ A aplicação utiliza embeddings e bancos de dados vetoriais (Pinecone) para rea
 *   **Autenticação**: Sistema de login e controle de acesso.
 *   **Histórico**: Registro de atividades e buscas.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 *   **Backend**: Python, FastAPI
 *   **Banco de Dados Vetorial**: Pinecone (inferido)
@@ -21,12 +21,12 @@ A aplicação utiliza embeddings e bancos de dados vetoriais (Pinecone) para rea
 *   **Front-end**: HTML, CSS, JavaScript (Vanilla)
 *   **Outros**: LangChain, OpenAI API (provável para embeddings), Python-docx.
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 *   Python 3.8+
 *   Conta no Pinecone e OpenAI (chaves de API)
 
-## 🔧 Instalação e Configuração
+## Instalação e Configuração
 
 1.  **Clone o repositório**
     ```bash
@@ -51,7 +51,7 @@ A aplicação utiliza embeddings e bancos de dados vetoriais (Pinecone) para rea
 4.  **Configure as Variáveis de Ambiente**
     Crie um arquivo `.env` na raiz do projeto com as chaves necessárias (ex: `PINECONE_API_KEY`, `OPENAI_API_KEY`, `DATABASE_URL`, etc.). Consulte o administrador do projeto para obter as chaves corretas.
 
-## ▶️ Como Executar
+## Como Executar
 
 O projeto inclui um script facilitador para execução no Windows.
 
@@ -68,12 +68,12 @@ Certifique-se de que o ambiente virtual está ativado e execute:
 python -m uvicorn main:app --reload --port 8001
 ```
 
-## 🌐 Acesso
+## Acesso
 
 *   **Aplicação Web (Login)**: [http://localhost:8001/](http://localhost:8001/) (Redireciona para `/static/login.html`)
 *   **Documentação da API (Swagger UI)**: [http://localhost:8001/docs](http://localhost:8001/docs) or [http://localhost:8001/redoc](http://localhost:8001/redoc)
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 *   `main.py`: Ponto de entrada da aplicação FastAPI.
 *   `api/`: Rotas (Endpoints) da API separadas por contexto (auth, ingest, job, query, etc.).
