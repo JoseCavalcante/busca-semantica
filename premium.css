@@ -1,0 +1,109 @@
+/* premium.css */
+:root {
+    --primary-color: #4f46e5;
+    --primary-dark: #4338ca;
+    --secondary-color: #64748b;
+    --background-dark: #0f172a;
+    --surface-dark: #1e293b;
+    --text-light: #f8fafc;
+    --text-muted: #94a3b8;
+    --accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+}
+
+/* Global Styles */
+.stApp {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Remove default Streamlit top padding */
+.block-container {
+    padding-top: 2rem !important;
+    /* Reduced from default ~6rem */
+    padding-bottom: 2rem !important;
+}
+
+/* Hide Streamlit Header */
+header[data-testid="stHeader"] {
+    display: none;
+}
+
+/* Login Page specific styling */
+.login-page .stApp {
+    background: var(--background-dark);
+}
+
+.login-container {
+    background-color: var(--surface-dark);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Custom Input Fields */
+.stTextInput input[type="text"],
+.stTextInput input[type="password"] {
+    background-color: #334155 !important;
+    color: white !important;
+    border: 1px solid #475569 !important;
+    border-radius: 0.5rem !important;
+    padding: 0.75rem 1rem !important;
+}
+
+.stTextInput input:focus {
+    border-color: #6366f1 !important;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2) !important;
+}
+
+/* Buttons */
+.stButton button {
+    background: var(--accent-gradient) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 0.5rem !important;
+    font-weight: 600 !important;
+    padding: 0.75rem 1.5rem !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+.stButton button:hover {
+    opacity: 0.9 !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3) !important;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2rem;
+    background-color: transparent;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 3rem;
+    white-space: nowrap;
+    background-color: transparent;
+    border: none;
+    color: var(--text-muted);
+}
+
+.stTabs [data-baseweb="tab"][aria-selected="true"] {
+    color: #6366f1 !important;
+    border-bottom: 2px solid #6366f1;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.element-container {
+    animation: fadeIn 0.5s ease-out;
+}

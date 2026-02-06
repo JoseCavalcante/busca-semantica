@@ -1,0 +1,665 @@
+[
+  {
+    "candidate_id": "manual_upload_1770306977439_356",
+    "candidate_name": "Ana Clara Santos",
+    "chunk_index": 4.0,
+    "chunk_text": " clientes. \n \nHABILIDADES TÉCNICAS \n●​ Front-end: React, Vue.js, TypeScript, Tailwind CSS \n●​ Back-end: Node.js, Java (Spring Boot), Python (Django) \n●​ Banco de Dados: PostgreSQL, Firebase, Redis \n●​ DevOps: Docker, Kubernetes, AWS (Lambda, RDS), Jenkins \n●​ Testes: Jest, Cypress, Selenium \n●​ Ferramentas: Figma (prototipagem), Postman, VS Code \n \nCERTIFICAÇÕES \n●​ Oracle Certified Professional: Java SE 11 Developer (2023) \n●​ Microsoft Certified: Azure Fundamentals (2022) \n●​ Certificação Scru",
+    "education_level": "Superior",
+    "email": "ana.santos@techfict.com.br",
+    "full_enriched_json": {
+      "candidato": {
+        "nome_completo": "Ana Clara Santos",
+        "email": [
+          "ana.santos@techfict.com.br"
+        ],
+        "telefones": [],
+        "linkedin_url": "linkedin.com/in/ana-clara-santos-dev",
+        "github_url": null,
+        "portfolio_url": "anasantos-dev.com",
+        "cidade": null,
+        "estado": null
+      },
+      "contexto": {
+        "resumo_profissional": "Profissional com 4 anos de experiência em desenvolvimento de software, especializada em soluções web completas, buscando aprimorar conhecimentos em tecnologias emergentes por meio de cursos avançados. Interesse em integrar inovação técnica com boas práticas de UX/UI para criar sistemas escaláveis e intuitivos.",
+        "objetivo_profissional": "Interesse em integrar inovação técnica com boas práticas de UX/UI para criar sistemas escaláveis e intuitivos.",
+        "area_atuacao": "Desenvolvimento de software",
+        "senioridade": "Pleno",
+        "anos_experiencia": 4,
+        "disponibilidade": null
+      },
+      "perfil_profissional": {
+        "habilidades_tecnicas": [
+          "React",
+          "Vue.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js",
+          "Java (Spring Boot)",
+          "Python (Django)",
+          "PostgreSQL",
+          "Firebase",
+          "Redis",
+          "Docker",
+          "Kubernetes",
+          "AWS (Lambda, RDS)",
+          "Jenkins",
+          "Jest",
+          "Cypress",
+          "Selenium"
+        ],
+        "habilidades_comportamentais": [],
+        "idiomas": [
+          {
+            "idioma": "Português",
+            "nivel": "Nativo"
+          },
+          {
+            "idioma": "Inglês",
+            "nivel": "Fluente"
+          },
+          {
+            "idioma": "Francês",
+            "nivel": "Básico"
+          }
+        ],
+        "certificacoes": [
+          "Oracle Certified Professional: Java SE 11 Developer (2023)",
+          "Microsoft Certified: Azure Fundamentals (2022)",
+          "Certificação Scrum Foundation (2021)"
+        ]
+      },
+      "formacao_academica": [
+        {
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)",
+          "curso": "Bacharelado em Sistemas de Informação",
+          "nivel": "Superior",
+          "status": "Concluído",
+          "ano_conclusao": 2021
+        },
+        {
+          "instituicao": "Escola Técnica Estadual do Rio de Janeiro (FAETEC)",
+          "curso": "Curso Técnico em Informática",
+          "nivel": "Técnico",
+          "status": "Concluído",
+          "ano_conclusao": 2016
+        }
+      ],
+      "experiencia_profissional": [
+        {
+          "empresa": "NexTech Solutions",
+          "cargo": "Desenvolvedora de Software",
+          "data_inicio": "2022-03",
+          "data_fim": "Atual",
+          "descricao": "Liderança técnica no desenvolvimento de uma plataforma de gestão de clientes utilizando React (front-end) e Spring Boot (back-end). Integração de microsserviços com Docker e Kubernetes, reduzindo tempo de deploy em 25%. Refatoração de código legado, melhorando a manutenibilidade e documentação do sistema.",
+          "tecnologias_utilizadas": [
+            "React",
+            "Spring Boot",
+            "Docker",
+            "Kubernetes"
+          ]
+        },
+        {
+          "empresa": "StartUpLab",
+          "cargo": "Estagiária Full Stack",
+          "data_inicio": "2020-08",
+          "data_fim": "2022-02",
+          "descricao": "Desenvolvimento de MVP para startup de edtech utilizando Vue.js e Node.js. Configuração de pipelines CI/CD com GitHub Actions. Implementação de autenticação JWT e integração com APIs de terceiros (Google Classroom).",
+          "tecnologias_utilizadas": [
+            "Vue.js",
+            "Node.js"
+          ]
+        },
+        {
+          "empresa": null,
+          "cargo": "Freelancer em Desenvolvimento Web",
+          "data_inicio": "2019-01",
+          "data_fim": "2020-07",
+          "descricao": "Criação de sites responsivos para pequenos negócios usando HTML/CSS, JavaScript e WordPress. Otimização de SEO, aumentando tráfego orgânico em até 40% para clientes.",
+          "tecnologias_utilizadas": [
+            "HTML/CSS",
+            "JavaScript",
+            "WordPress"
+          ]
+        }
+      ],
+      "analise_ia": {
+        "score_geral": 85,
+        "pontos_fortes": [
+          "Experiência em liderança técnica",
+          "Ampla variedade de tecnologias dominadas",
+          "Certificações relevantes"
+        ],
+        "pontos_atencao": [
+          "Falta de habilidades comportamentais listadas",
+          "Pouca experiência em projetos open-source"
+        ],
+        "senioridade_inferida": "Pleno",
+        "aderencia_cultura_tech": "Média"
+      }
+    },
+    "seniority_inferred": "Pleno",
+    "skills": [
+      "React",
+      "Vue.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Java (Spring Boot)",
+      "Python (Django)",
+      "PostgreSQL",
+      "Firebase",
+      "Redis",
+      "Docker",
+      "Kubernetes",
+      "AWS (Lambda, RDS)",
+      "Jenkins",
+      "Jest",
+      "Cypress",
+      "Selenium"
+    ],
+    "source_file": "Currículo2.pdf",
+    "upload_date": "2026-02-05T15:56:17.439Z"
+  },
+  {
+    "candidate_id": "manual_upload_1770306993955_463",
+    "candidate_name": "Alex Costa",
+    "chunk_index": 4.0,
+    "chunk_text": " para redes sociais (Adobe Creative Suite) e \nintegração com CMS como Shopify e Webflow. \n \nHABILIDADES TÉCNICAS \n●​ Design: Figma, Adobe XD, Photoshop, Illustrator, Prototipagem Interativa \n●​ Front-End: HTML/CSS, JavaScript (ES6+), React.js, Vue.js, SASS \n●​ Back-End Leve: Node.js (Express para APIs simples), Firebase (Firestore, \nAuth) \n●​ Marketing: Google Analytics, SEO, WordPress, Shopify, Mailchimp \n●​ Ferramentas: Git, Webpack, Jira, Zeplin, A/B Testing \n \nCERTIFICAÇÕES \n●​ Adobe Certifi",
+    "education_level": "Superior",
+    "email": "alex@creativeflow.com.br",
+    "full_enriched_json": {
+      "candidato": {
+        "nome_completo": "Alex Costa",
+        "email": [
+          "alex@creativeflow.com.br"
+        ],
+        "telefones": [],
+        "linkedin_url": "linkedin.com/in/alex-costa",
+        "github_url": null,
+        "portfolio_url": null,
+        "cidade": null,
+        "estado": null
+      },
+      "contexto": {
+        "resumo_profissional": "Profissional multidisciplinar com 5 anos de experiência integrando design, desenvolvimento front-end e estratégias de marketing digital. Busco aprimorar habilidades em design de interfaces complexas e explorar soluções criativas que unam estética, usabilidade e performance técnica.",
+        "objetivo_profissional": "Busco aprimorar habilidades em design de interfaces complexas e explorar soluções criativas que unam estética, usabilidade e performance técnica.",
+        "area_atuacao": "Design Digital",
+        "senioridade": "Pleno",
+        "anos_experiencia": 5,
+        "disponibilidade": null
+      },
+      "perfil_profissional": {
+        "habilidades_tecnicas": [
+          "Figma",
+          "Adobe XD",
+          "Photoshop",
+          "Illustrator",
+          "Prototipagem Interativa",
+          "HTML/CSS",
+          "JavaScript (ES6+)",
+          "React.js",
+          "Vue.js",
+          "SASS",
+          "Node.js (Express para APIs simples)",
+          "Firebase (Firestore, Auth)",
+          "Google Analytics",
+          "SEO",
+          "WordPress",
+          "Shopify",
+          "Mailchimp",
+          "Git",
+          "Webpack",
+          "Jira",
+          "A/B Testing"
+        ],
+        "habilidades_comportamentais": [],
+        "idiomas": [
+          {
+            "idioma": "Português",
+            "nivel": "Nativo"
+          },
+          {
+            "idioma": "Inglês",
+            "nivel": "Fluente"
+          },
+          {
+            "idioma": "Espanhol",
+            "nivel": "Intermediário"
+          }
+        ],
+        "certificacoes": [
+          "Adobe Certified Expert (ACE) em UX Design (2022)",
+          "Certificação Professional em JavaScript (Codecademy Pro, 2021)",
+          "Google Analytics Individual Qualification (2020)"
+        ]
+      },
+      "formacao_academica": [
+        {
+          "instituicao": "Universidade Federal do Paraná (UFPR)",
+          "curso": "Bacharelado em Design Digital",
+          "nivel": "Superior",
+          "status": "Concluído",
+          "ano_conclusao": 2020
+        },
+        {
+          "instituicao": "Instituto de Tecnologia e Design (ITEDE)",
+          "curso": "Curso Técnico em Marketing Digital",
+          "nivel": "Técnico",
+          "status": "Concluído",
+          "ano_conclusao": 2015
+        }
+      ],
+      "experiencia_profissional": [
+        {
+          "empresa": "DigitalMind Creative Studio",
+          "cargo": "UI/UX Designer & Front-End Developer",
+          "data_inicio": "2021-07",
+          "data_fim": "Atual",
+          "descricao": "Criação de interfaces para 12+ produtos web e mobile, usando Figma e implementação com React.js e Vue.js. Colaboração com equipes de marketing na construção de landing pages high-conversion (aumento de 35% em taxas de engajamento). Desenvolvimento de componentes reutilizáveis em Storybook para acelerar workflows de design e desenvolvimento.",
+          "tecnologias_utilizadas": [
+            "Figma",
+            "React.js",
+            "Vue.js"
+          ]
+        },
+        {
+          "empresa": "Agência Pulse",
+          "cargo": "Designer de Produto e Marketing",
+          "data_inicio": "2019-01",
+          "data_fim": "2021-06",
+          "descricao": "Liderança de projetos de branding para clientes de e-commerce, incluindo identidade visual e campanhas de mídia social. Integração de ferramentas de análise (Google Analytics, Hotjar) em websites para otimização de UX. Automação de fluxos de marketing com WordPress e plugins personalizados em PHP.",
+          "tecnologias_utilizadas": [
+            "Google Analytics",
+            "WordPress",
+            "PHP"
+          ]
+        },
+        {
+          "empresa": null,
+          "cargo": "Freelancer em Design e Desenvolvimento Web",
+          "data_inicio": "2017-08",
+          "data_fim": "2018-12",
+          "descricao": "Design e codificação de sites para startups, com foco em mobile-first e SEO. Criação de conteúdo visual para redes sociais (Adobe Creative Suite) e integração com CMS como Shopify e Webflow.",
+          "tecnologias_utilizadas": [
+            "Adobe Creative Suite",
+            "Shopify",
+            "Webflow"
+          ]
+        }
+      ],
+      "analise_ia": {
+        "score_geral": 85,
+        "pontos_fortes": [
+          "Experiência diversificada em design e desenvolvimento",
+          "Certificações relevantes em UX Design e JavaScript",
+          "Fluência em múltiplas ferramentas e tecnologias"
+        ],
+        "pontos_atencao": [
+          "Falta de habilidades comportamentais listadas",
+          "Necessidade de maior detalhamento sobre disponibilidade e objetivos futuros"
+        ],
+        "senioridade_inferida": "Pleno",
+        "aderencia_cultura_tech": "Média"
+      }
+    },
+    "seniority_inferred": "Pleno",
+    "skills": [
+      "Figma",
+      "Adobe XD",
+      "Photoshop",
+      "Illustrator",
+      "Prototipagem Interativa",
+      "HTML/CSS",
+      "JavaScript (ES6+)",
+      "React.js",
+      "Vue.js",
+      "SASS",
+      "Node.js (Express para APIs simples)",
+      "Firebase (Firestore, Auth)",
+      "Google Analytics",
+      "SEO",
+      "WordPress",
+      "Shopify",
+      "Mailchimp",
+      "Git",
+      "Webpack",
+      "Jira",
+      "A/B Testing"
+    ],
+    "source_file": "Currículo3.pdf",
+    "upload_date": "2026-02-05T15:56:33.955Z"
+  },
+  {
+    "candidate_id": "manual_upload_1770306950223_981",
+    "candidate_name": "THOMAS A. ANDERSON",
+    "chunk_index": 4.0,
+    "chunk_text": "ct, Node.js, Django \n●​ Banco de Dados: MySQL, MongoDB, PostgreSQL \n●​ Ferramentas: Git, Docker, Jupyter Notebook, Power BI \n●​ Cloud: AWS (EC2, S3), Google Cloud Platform \n●​ Análise de Dados: Pandas, NumPy, Tableau \n \nCERTIFICAÇÕES \n●​ Certificado AWS Certified Developer – Associate (2023) \n●​ Scrum Master Certified (SMC) – CertiProf (2022) \n●​ Google Data Analytics Professional Certificate (2021) \n \nIDIOMAS \n●​ Português: Nativo \n●​ Inglês: Avançado (TOEFL: 92/120) \n●​ Espanhol: Intermediário",
+    "education_level": "Bacharelado",
+    "email": "thomas.anderson@email.com",
+    "full_enriched_json": {
+      "candidato": {
+        "nome_completo": "THOMAS A. ANDERSON",
+        "email": [
+          "thomas.anderson@email.com"
+        ],
+        "telefones": [],
+        "linkedin_url": "linkedin.com/in/thomasanderson",
+        "github_url": "github.com/thomasanderson-dev",
+        "portfolio_url": null,
+        "cidade": null,
+        "estado": null
+      },
+      "contexto": {
+        "resumo_profissional": "Profissional de tecnologia com 5 anos de experiência em desenvolvimento de software e análise de dados, buscando ingressar no curso de Pós-Graduação em Ciência de Dados e Inteligência Artificial para ampliar conhecimentos em machine learning e big data. Comprometido em aplicar habilidades técnicas em projetos inovadores e contribuir para soluções orientadas por dados.",
+        "objetivo_profissional": "Profissional de tecnologia com 5 anos de experiência em desenvolvimento de software e análise de dados, buscando ingressar no curso de Pós-Graduação em Ciência de Dados e Inteligência Artificial para ampliar conhecimentos em machine learning e big data. Comprometido em aplicar habilidades técnicas em projetos inovadores e contribuir para soluções orientadas por dados.",
+        "area_atuacao": "Tecnologia",
+        "senioridade": "Junior",
+        "anos_experiencia": 5,
+        "disponibilidade": null
+      },
+      "perfil_profissional": {
+        "habilidades_tecnicas": [
+          "Python",
+          "Java",
+          "JavaScript",
+          "SQL",
+          "React",
+          "Node.js",
+          "Django",
+          "MySQL",
+          "MongoDB",
+          "PostgreSQL",
+          "Git",
+          "Docker",
+          "Jupyter Notebook",
+          "Power BI",
+          "AWS (EC2, S3)",
+          "Google Cloud Platform",
+          "Pandas",
+          "NumPy",
+          "Tableau"
+        ],
+        "habilidades_comportamentais": [],
+        "idiomas": [
+          {
+            "idioma": "Português",
+            "nivel": "Nativo"
+          },
+          {
+            "idioma": "Inglês",
+            "nivel": "Avançado"
+          },
+          {
+            "idioma": "Espanhol",
+            "nivel": "Intermediário"
+          }
+        ],
+        "certificacoes": [
+          "AWS Certified Developer – Associate (2023)",
+          "Scrum Master Certified (SMC) – CertiProf (2022)",
+          "Google Data Analytics Professional Certificate (2021)"
+        ]
+      },
+      "formacao_academica": [
+        {
+          "instituicao": "Universidade de São Paulo (USP)",
+          "curso": "Ciência da Computação",
+          "nivel": "Bacharelado",
+          "status": "Concluído",
+          "ano_conclusao": 2022
+        }
+      ],
+      "experiencia_profissional": [
+        {
+          "empresa": "TechSolutions Brasil",
+          "cargo": "Engenheiro de Software Júnior",
+          "data_inicio": "2023-01",
+          "data_fim": "Atual",
+          "descricao": "Desenvolvimento de APIs em Python e Node.js para integração de sistemas de gestão empresarial. Implementação de testes automatizados, reduzindo bugs em produção em 30%. Colaboração em equipes ágeis (Scrum) para entrega de projetos em cloud (AWS).",
+          "tecnologias_utilizadas": [
+            "Python",
+            "Node.js",
+            "AWS"
+          ]
+        },
+        {
+          "empresa": "InovaData Analytics",
+          "cargo": "Estagiário em Análise de Dados",
+          "data_inicio": "2021-03",
+          "data_fim": "2022-12",
+          "descricao": "Criação de dashboards em Power BI para monitoramento de KPIs de vendas. Processamento de datasets com Pandas e SQL, identificando insights para redução de custos. Automação de relatórios mensais, economizando 15 horas mensais da equipe.",
+          "tecnologias_utilizadas": [
+            "Power BI",
+            "Pandas",
+            "SQL"
+          ]
+        },
+        {
+          "empresa": null,
+          "cargo": "Desenvolvedor Full-Stack Freelancer",
+          "data_inicio": "2020-06",
+          "data_fim": "2021-02",
+          "descricao": "Construção de aplicações web com React e Django para clientes de e-commerce. Integração de sistemas de pagamento (PagSeguro, Mercado Pago).",
+          "tecnologias_utilizadas": [
+            "React",
+            "Django"
+          ]
+        }
+      ],
+      "analise_ia": {
+        "score_geral": 85,
+        "pontos_fortes": [
+          "Experiência em desenvolvimento de software e análise de dados",
+          "Conhecimento em diversas tecnologias e ferramentas",
+          "Certificações relevantes na área"
+        ],
+        "pontos_atencao": [
+          "Falta de experiência em projetos de grande escala",
+          "Pouca experiência em liderança de equipes"
+        ],
+        "senioridade_inferida": "Pleno",
+        "aderencia_cultura_tech": "Média"
+      }
+    },
+    "seniority_inferred": "Pleno",
+    "skills": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "SQL",
+      "React",
+      "Node.js",
+      "Django",
+      "MySQL",
+      "MongoDB",
+      "PostgreSQL",
+      "Git",
+      "Docker",
+      "Jupyter Notebook",
+      "Power BI",
+      "AWS (EC2, S3)",
+      "Google Cloud Platform",
+      "Pandas",
+      "NumPy",
+      "Tableau"
+    ],
+    "source_file": "Currículo1.pdf",
+    "upload_date": "2026-02-05T15:55:50.221Z"
+  },
+  {
+    "candidate_id": "manual_upload_1770307327859_819",
+    "candidate_name": "JOSE ALVES CAVALCANTE NETTO",
+    "chunk_index": 4.0,
+    "chunk_text": "PERIÊNCIA PROFISSIONAL \n \nATOS Brasil \nTech Lead – 04/08/2025 25/11/2025 \nAtuei fazendo a ponte entre a equipe técnica e a gestão, sendo responsável por guiar o time em decisões de arquitetura, boas \npráticas e qualidade de código. \nPrestador de serviços à Petrobras - Gerência de Poços \n \nSOLUTIC GROUP CONSULTORIA E SOLUÇÕES EMPRESARIAIS  \nAnalista de BI – 07/2024 até presente data \n \nResponsável pela criação e manutenção de Relatórios no Power BI e criação de Fluxo de Dados.  \nPrestador de serv",
+    "education_level": "Pós-graduação",
+    "email": "jcavalcante720@gmail.com",
+    "full_enriched_json": {
+      "candidato": {
+        "nome_completo": "JOSE ALVES CAVALCANTE NETTO",
+        "email": [
+          "jcavalcante720@gmail.com"
+        ],
+        "telefones": [
+          "21-991887787"
+        ],
+        "linkedin_url": "linkedin.com/in/jose-cavalcante",
+        "github_url": "www.github.com/josecavalcante",
+        "portfolio_url": null,
+        "cidade": "Iguaba Grande",
+        "estado": "Rio de Janeiro"
+      },
+      "contexto": {
+        "resumo_profissional": "Profissional em fase de transição de carreira buscando novas oportunidades na área de Ciência de Dados e Inteligência Artificial.",
+        "objetivo_profissional": "DATA SCIENCE | MACHINE LEARNING | POWER BI | SQL | DATA BRICKS | DBT | ANALISTA DE SISTEMAS | ESTATÍSTICA | BANCO DE DADOS | PROFESSOR | PYTHON | ORIENTAÇÃO OBJETO | C# | PYTHON | JAVA MOBILE | POWERAPS | ANDROID | API | JAVASCRIPT | SCRUM | JSON | MVC | UML | STREAMLIT | SHAREPOINT | POWER AUTOMATE",
+        "area_atuacao": "Ciência de Dados e Inteligência Artificial",
+        "senioridade": "Especialista",
+        "anos_experiencia": 20,
+        "disponibilidade": null
+      },
+      "perfil_profissional": {
+        "habilidades_tecnicas": [
+          "DATA SCIENCE",
+          "MACHINE LEARNING",
+          "POWER BI",
+          "SQL",
+          "DATA BRICKS",
+          "DBT",
+          "ANALISTA DE SISTEMAS",
+          "ESTATÍSTICA",
+          "BANCO DE DADOS",
+          "PROFESSOR",
+          "PYTHON",
+          "ORIENTAÇÃO OBJETO",
+          "C#",
+          "JAVA MOBILE",
+          "POWERAPS",
+          "ANDROID",
+          "API",
+          "JAVASCRIPT",
+          "SCRUM",
+          "JSON",
+          "MVC",
+          "UML",
+          "STREAMLIT",
+          "SHAREPOINT",
+          "POWER AUTOMATE"
+        ],
+        "habilidades_comportamentais": [],
+        "idiomas": [
+          {
+            "idioma": "Inglês",
+            "nivel": "intermediário"
+          },
+          {
+            "idioma": "Espanhol",
+            "nivel": "intermediário"
+          }
+        ],
+        "certificacoes": []
+      },
+      "formacao_academica": [
+        {
+          "instituicao": "FAMESP – Faculdade Método de São Paulo",
+          "curso": "MBA em Análise de Dados e Inteligência Artificial",
+          "nivel": "Pós-graduação",
+          "status": "Concluído",
+          "ano_conclusao": 2023
+        },
+        {
+          "instituicao": "Centro Universitário Carioca",
+          "curso": "Bacharelado em Análise e Desenvolvimento de Sistemas",
+          "nivel": "Graduação",
+          "status": "Concluído",
+          "ano_conclusao": 2010
+        }
+      ],
+      "experiencia_profissional": [
+        {
+          "empresa": "ATOS Brasil",
+          "cargo": "Tech Lead",
+          "data_inicio": "2025-08",
+          "data_fim": "2025-11",
+          "descricao": "Atuei fazendo a ponte entre a equipe técnica e a gestão, sendo responsável por guiar o time em decisões de arquitetura, boas práticas e qualidade de código.",
+          "tecnologias_utilizadas": []
+        },
+        {
+          "empresa": "SOLUTIC GROUP CONSULTORIA E SOLUÇÕES EMPRESARIAIS",
+          "cargo": "Analista de BI",
+          "data_inicio": "2024-07",
+          "data_fim": "Atual",
+          "descricao": "Responsável pela criação e manutenção de Relatórios no Power BI e criação de Fluxo de Dados.",
+          "tecnologias_utilizadas": []
+        },
+        {
+          "empresa": "BUREAU VERITAS INSPEÇÕES",
+          "cargo": "Analista de Sistemas",
+          "data_inicio": "2021-01",
+          "data_fim": "2024-05",
+          "descricao": "Responsável pela organização de dados laboratoriais em classes e atributos como suporte ao banco de dados Oracle. Desenvolvimento de aplicações utilizando Microsoft C# e modelagem de banco de dados.",
+          "tecnologias_utilizadas": []
+        },
+        {
+          "empresa": "VALID S/A",
+          "cargo": "Programador/Analista de Sistemas",
+          "data_inicio": "2010-01",
+          "data_fim": "2020-08",
+          "descricao": "Responsável por realizar testes de integração continua nos projetos de software, desenvolver aplicações Web, Desktop e Mobile. Treinamento de estagiários, promovendo cursos livres de lógica de Programação e Implantação de Sistemas.",
+          "tecnologias_utilizadas": []
+        },
+        {
+          "empresa": "INFORMAL SERVIÇOS E CONSULTORIA EM INFORMÁTICA LTDA",
+          "cargo": "Programador",
+          "data_inicio": "2003-04",
+          "data_fim": "2009-12",
+          "descricao": "Funções técnicas na área de desenvolvimento de sistemas web e desktop com Banco de Dados Oracle e SQL Server.",
+          "tecnologias_utilizadas": []
+        },
+        {
+          "empresa": "CM SOLUÇÕES INFORMÁTICA LTDA",
+          "cargo": "Programador",
+          "data_inicio": "2000-06",
+          "data_fim": "2003-04",
+          "descricao": "Funções técnicas na área de desenvolvimento de sistemas web e desktop com Banco de Dados Oracle e SQL Server.",
+          "tecnologias_utilizadas": []
+        }
+      ],
+      "analise_ia": {
+        "score_geral": 0,
+        "pontos_fortes": [],
+        "pontos_atencao": [],
+        "senioridade_inferida": "Especialista",
+        "aderencia_cultura_tech": null
+      }
+    },
+    "seniority_inferred": "Especialista",
+    "skills": [
+      "DATA SCIENCE",
+      "MACHINE LEARNING",
+      "POWER BI",
+      "SQL",
+      "DATA BRICKS",
+      "DBT",
+      "ANALISTA DE SISTEMAS",
+      "ESTATÍSTICA",
+      "BANCO DE DADOS",
+      "PROFESSOR",
+      "PYTHON",
+      "ORIENTAÇÃO OBJETO",
+      "C#",
+      "JAVA MOBILE",
+      "POWERAPS",
+      "ANDROID",
+      "API",
+      "JAVASCRIPT",
+      "SCRUM",
+      "JSON",
+      "MVC",
+      "UML",
+      "STREAMLIT",
+      "SHAREPOINT",
+      "POWER AUTOMATE"
+    ],
+    "source_file": "Jose Cavalcante - CV.pdf",
+    "upload_date": "2026-02-05T16:02:07.856Z"
+  }
+]

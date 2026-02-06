@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Busca Semântica</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Reusing base styles -->
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Using a simple icon library like Phosphor Icons or similar via CDN could be good, but sticking to text/svg for simplicity unless requested -->
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Busca Semântica</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item active" data-target="search">
+                    <span>🔍</span> Busca
+                </a>
+                <a href="#" class="nav-item" data-target="upload">
+                    <span class="icon">📂</span>
+                    Upload
+                </a>
+                <a href="#" class="nav-item" data-target="jobs">
+                    <span class="icon">💼</span>
+                    Vagas
+                </a>
+                <a href="#" class="nav-item" data-target="history">
+                    <span>📜</span> Histórico
+                </a>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <span id="userNameDisplay">Usuário</span>
+                </div>
+                <button id="logoutBtn" class="btn-logout">Sair</button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-bar">
+                <h1 id="pageTitle">Busca de Currículos</h1>
+            </header>
+
+            <div id="contentArea" class="content-area">
+                <!-- Dynamic Content Loaded via JS -->
+                <div class="placeholder-content">
+                    <p>Selecione uma opção no menu lateral.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/dashboard.js"></script>
+</body>
+
+</html>
