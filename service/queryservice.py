@@ -102,7 +102,7 @@ async def hybrid_search(search_term: str, tenant_id: int, db: Session, top_k: in
         # Check if this vector match belongs to tenant (if metadata helps)
         # If "tenant_id" in match.metadata and match.metadata["tenant_id"] != tenant_id: continue
         
-        file_key = match.metadata.get('filename', match.id)
+        file_key = match.metadata.get('filename') or match.metadata.get('source_file') or match.id
         combined_scores[file_key] = match.score
         docs_metadata[file_key] = match.metadata
 
@@ -139,7 +139,7 @@ def deduplicate_matches(matches, target_top_k=5):
     seen_files = set()
     unique_matches = []
     for match in matches:
-        filename = (match.metadata.get('filename') or match.id)
+        filename = (match.metadata.get('filename') or match.metadata.get('source_file') or match.id)
         if filename not in seen_files:
             seen_files.add(filename)
             unique_matches.append(match)

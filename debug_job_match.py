@@ -56,7 +56,9 @@ async def inspect_job_matching():
 
         # 3. Serialize Query
         print("\n🚀 Running similarity search...")
-        response = query_simples(search=query_text)
+        # Assuming tenant_id 1 for debug or fetch from job if available (job model usually has tenant_id)
+        tenant_id = job.tenant_id if hasattr(job, 'tenant_id') else 1
+        response = await query_simples(search=query_text, tenant_id=tenant_id, db=db)
 
         if "matches" in response:
             matches = response['matches']
@@ -65,19 +67,29 @@ async def inspect_job_matching():
             for i, match in enumerate(matches):
                 # Calculate Common Skills
                 candidate_skills = []
-                if "skills" in match.metadata:
-                    if isinstance(match.metadata["skills"], str):
+                metadata = match.get('metadata', {})
+                
+                if "skills" in metadata:
+                    if isinstance(metadata["skills"], str):
                         try:
-                            candidate_skills = json.loads(match.metadata["skills"])
+                            candidate_skills = json.loads(metadata["skills"])
                         except:
-                            candidate_skills = [s.strip() for s in match.metadata["skills"].split(',')]
-                    elif isinstance(match.metadata["skills"], list):
-                        candidate_skills = match.metadata["skills"]
+                            candidate_skills = [s.strip() for s in metadata["skills"].split(',')]
+                    elif isinstance(metadata["skills"], list):
+                        candidate_skills = metadata["skills"]
                 
                 candidate_skills_set = set(str(s).lower().strip() for s in candidate_skills)
                 common = job_skills_set.intersection(candidate_skills_set)
                 
-                print(f"   [{i+1}] Score: {match.score:.4f} - ID: {match.id} - Common Skills: {common}")
+                score = match.get('score', 0)
+                match_id = match.get('id', 'unknown')
+                
+                print(f"   [{i+1}] Score: {score:.4f} - ID: {match_id}")
+                print(f"       Metadata Keys: {list(metadata.keys())}")
+                print(f"       Filename: {metadata.get('filename', 'N/A')}")
+                print(f"       Source File: {metadata.get('source_file', 'N/A')}")
+                
+                print(f"       Common Skills: {common}")
                 if not common:
                     print("       ⚠️ High score but NO common skills.")
 

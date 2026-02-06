@@ -161,7 +161,7 @@ async def get_job_matches(job_id: int, db: Session = Depends(get_db), current_us
     
     # Use existing query service
     # We use query_simples for now, but could switch to filtered if we wanted to enforce filters (e.g. location?)
-    response = query_simples(search=query_text)
+    response = await query_simples(search=query_text, tenant_id=current_user.tenant_id, db=db)
     
     # Ensure job skills are a set for intersection (handle if it's still a string or None)
     job_skills_set = set()
